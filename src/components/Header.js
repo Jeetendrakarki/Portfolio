@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export const Header = () => {
   return (
-<>
-<header className="flex primary-header">
+    <>
+      <header className="flex primary-header">
         <div className="flex logo">
-          <h1>Prem Acharya</h1>
+          <h1>Jeetendra Karki</h1>
           <div>
             <h3 className="line">Web Developer</h3>
           </div>
@@ -34,5 +34,6 @@ export const Header = () => {
           </ul>
         </div>
       </header>
-</>  )
-}
+    </>
+  );
+};
