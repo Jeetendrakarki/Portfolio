@@ -1,10 +1,12 @@
 import React from "react";
 import photo4 from "../assets/photo4.JPG";
+import Layout from "./Layout";
 
 export const About = () => {
   return (
     <>
-      {" "}
+    <Layout>
+      
       <section className="section5 flex" id="about">
         <h1 className="title">About me</h1>
 
@@ -35,6 +37,7 @@ export const About = () => {
           </div>
         </div>
       </section>
+      </Layout>
     </>
   );
 };

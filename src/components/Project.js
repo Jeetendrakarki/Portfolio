@@ -1,8 +1,10 @@
 import React from 'react'
 import project3 from "../assets/project3.png"
+import Layout from './Layout'
 
 const Project = () => {
   return (
+    <Layout>
     <section className="section4 flex" id="projects">
         <h1 className="title">My Projects</h1>
 
@@ -38,7 +40,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-      </section>  )
+      </section>
+      </Layout>  )
 }
 
 export default Project

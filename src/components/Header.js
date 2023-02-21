@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-<>
-<header className="flex primary-header">
+    <>
+      <header className="flex primary-header">
         <div className="flex logo">
-          <h1>Prem Acharya</h1>
+          <h1>Jeetendra Karki</h1>
           <div>
             <h3 className="line">Web Developer</h3>
           </div>
@@ -17,22 +18,24 @@ export const Header = () => {
           </label>
           <ul className="flex primary-navigation">
             <li>
-              <a href="#home">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <Link to="/skills">Skills</Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="/projects">Project</Link>
+            </li>
+
+            <li>
+              <Link to="/About">About</Link>
             </li>
             <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
+              <Link to="/Contact">Contact</Link>
             </li>
           </ul>
         </div>
       </header>
-</>  )
-}
+    </>
+  );
+};
